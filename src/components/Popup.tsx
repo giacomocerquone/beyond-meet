@@ -1,6 +1,6 @@
 import { useEffect } from 'react'
 import getMeetTabID from '../api/getMeetTabID'
-import SettingsList from '../components/SettingsList'
+import SettingsList from './SettingsList'
 import './Popup.css'
 import useSettings from '../hooks/useSettings'
 

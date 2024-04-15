@@ -1,7 +1,7 @@
 import React from 'react'
 import { set } from '../api/storage'
 import Row from './Row'
-import { SettingsFormValues } from '../popup/Popup'
+import { SettingsFormValues } from './Popup'
 import { chromeStorageKey } from '../constants'
 
 const styles = {

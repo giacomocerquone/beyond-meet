@@ -1,5 +1,5 @@
 import { chromeStorageKey, joinButtonClass } from '../constants'
-import { SettingsFormValues } from '../popup/Popup'
+import { SettingsFormValues } from '../components/Popup'
 
 const getJoinButton = () => document.getElementsByClassName(joinButtonClass)[0] as HTMLElement
 

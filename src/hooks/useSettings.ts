@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 import { get } from '../api/storage'
-import { SettingsFormValues } from '../popup/Popup'
+import { SettingsFormValues } from '../components/Popup'
 import { chromeStorageKey } from '../constants'
 
 const useSettings = () => {
